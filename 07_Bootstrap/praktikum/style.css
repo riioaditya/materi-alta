@@ -1,0 +1,109 @@
+        .nav{
+            list-style-type: none;
+            margin-right: 100px;
+        }
+        .nav li{
+            margin: 8px 10px;
+        }
+        .nav li a img{
+            margin-left: 3px;
+        }
+        @media screen and (min-width: 720px) {
+            .d-lg-flex{
+                display: flex;
+            }
+        }
+        .brand{
+            margin: 0 auto;
+        }
+        .navbar-shadow{
+            margin-top: 3px;
+            box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
+        }
+        .text-simple{
+            margin: 100px 0;
+            text-align: center;
+        }
+        .text-atas{
+            font-size: 30px;
+            font-family: 'Barlow', sans-serif;
+        }
+        .text-bawah{
+            font-size: 15px;
+        }
+        .text-roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+        .text-robotomono{
+            font-family: 'Roboto Mono', monospace;
+        }
+        .text-redhat{
+            font-family: 'Red Hat Text', sans-serif;
+        }
+        .konten-info{
+            margin-top: 250px;
+        }
+        .gambar{
+            margin-top: -150px;
+        }
+        .gambar a{
+            text-decoration: none;
+            color: black;
+        }
+        .konten-info-desain{
+            margin-left: 300px;
+            margin-top: 200px;
+            margin-bottom: 200px;
+        }
+        .text-design{
+            margin-left: 55px;
+            margin-top: 40px;
+            font-size: 45px;
+            padding: 0 10;
+        }
+        .text-design p{
+            font-size: 18px;
+        }
+        .text-design img{
+            transform: rotate(270deg);
+            margin-top: -110px;
+            margin-left: 0px;
+        }
+        .fix-position{
+            margin-left: 20px;
+            margin-top: -118px;
+        }
+        .row-design2 img{
+            margin-left: -345px;
+        }
+        .row-design2 {
+            margin-top: 30px;
+        }
+        .fix-position2{
+            margin-left: 20px;
+            margin-top: -100px;
+        }
+        .fix-position3{
+            margin-left: 20px;
+            margin-top: -90px;
+        }
+        .fix-position4{
+            margin-left: 20px;
+            margin-top: -80px;
+        }
+        .fix-position5{
+            margin-left: 20px;
+            margin-top: -70px;
+        }
+        .row-design img{
+            margin-left: -345px;
+        }
+        .estartup{
+            margin-top: 20px;
+        }
+        .text-reset{
+            text-decoration: none;
+        }
+        .row-footer{
+            margin-bottom: 30px;
+        }
