@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.containerAddTodo{
+    padding-left: 20px;
+    display: flex;
+}
+.containerAddTodo>.submitButton{
+    margin-left: 250px;
+}
+.addText{
+    border: none;
+}
+.submitButton{
+    margin-right: 30px;
+}
