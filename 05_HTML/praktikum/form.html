@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+    
+    <div style="margin: 30px;">
+        <h1>Buat Account Baru !</h1>
+        <h2>Sign Up Form</h2>
+        <form action="welcome.html" method="POST">
+            <label style="margin-right: 10px;">First Name :</label><br><input type="text" style="margin-top: 5px;"><br><br>
+            <label>Last Name :</label><br><input type="text" style="margin-top: 5px;"><br><br>
+            <label>Gender :</label><br><br><input type="radio" name="gender" value="genderr">Male<br>
+            <input type="radio" name="gender" value="genderr">Female<br>
+            <input type="radio" name="gender" value="genderr">Prefer not to say<br><br>
+            <label>Nationality : </label><br><br>
+            <select name="nation">
+                <option value="opsi">-- Nationality --</option>
+                <option value="indo">Indonesian</option>
+                <option value="malay">Malaysian</option>
+                <option value="aussie">Aussie</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <label>Language Spoken : </label><br><br>
+            <input type="checkbox">Bahasa Indonesia<br>
+            <input type="checkbox">English<br>
+            <input type="checkbox">Others<br><br>
+            <label>Bio :</label><br><br>
+            <textarea name="" id="" cols="35" rows="10" placeholder="Type your bio"></textarea><br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
