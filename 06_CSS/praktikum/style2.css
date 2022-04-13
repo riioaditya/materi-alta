@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('75-Purple-Color-Background-On-Wallpapersafari.jpg');
+}
+nav{
+    background-color: white;
+}
+li {
+    display: inline;
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+    padding: 5px;
+}
+img{
+    margin: 10px;
+    width: 200px;
+}
+h2{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: cyan;
+    text-align: center;
+}
+.konten{
+    margin: auto;
+    width: 70%;
+    background-color: cyan;
+    padding: 40px;
+    margin-bottom: 5px;
+}
+tr{
+    padding: 10px;
+}
+footer {
+    background-color: black;
+    height: 80px;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
